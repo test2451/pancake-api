@@ -1,41 +1,41 @@
 exports.template = {
-  "provider": "PancakeSwap", // Project name - PancakeSwap
-  "provider_logo": "https://pancakeswap.finance/Logo.png",
-  "provider_URL": "https://pancakeswap.finance/", // Project URL
+  "provider": "PieSwap", // Project name - PieSwap
+  "provider_logo": "https://pieswap.org/Logo.png",
+  "provider_URL": "https://paieswap.org/", // Project URL
   "links": [
     // social media info
     {
       "title": "Twitter",
-      "link": "https://twitter.com/PancakeSwap"
+      "link": "https://twitter.com/PieSwap"
     },
     {
       "title": "Github",
-      "link": "https://github.com/pancakeswap"
+      "link": "https://github.com/pieswap"
     }
   ],
   "pools": [
     {
       "name": "CAKE", // Pool name if any, eg. Sushi Party, Uniswap Sushi-ETH LP
       "pair": "CAKE",
-      "pairLink": "https://pancakeswap.finance/staking",
-      "logo": "https://pancakeswap.finance/lp-images/category-cake.png",
-      "poolRewards": ["CAKE"], // The reward token ticker
+      "pairLink": "https://pieswap.org/staking",
+      "logo": "https://pieswap.org/lp-images/category-pie.png",
+      "poolRewards": ["PIE"], // The reward token ticker
       "apr": 175.3835, // APY, 1.1 means 110%
       "totalStaked": 156611, // Total valued lock in USD
       "points": 19
     },
     {
-      "name": "PancakeSWAP CAKE-BNB", // Pool name if any, eg. Sushi Party, Uniswap Sushi-ETH LP
-      "pair": "CAKE-WBNB",
-      "pairLink": "https://pancakeswap.finance/farms/CAKE-BNB%20FLIP",
-      "logo": "https://pancakeswap.finance/lp-images/category-cake.png",
-      "poolRewards": ["CAKE"], // The reward token ticker
+      "name": "PieSWAP PIE-OKT", // Pool name if any, eg. Sushi Party, Uniswap Sushi-ETH LP
+      "pair": "PIE-WOKT",
+      "pairLink": "https://pieswap.org/farms/PIE-OKT%20FLIP",
+      "logo": "https://pieswap.org/lp-images/category-pie.png",
+      "poolRewards": ["PIE"], // The reward token ticker
       "apr": 175.3835, // APY, 1.1 means 110%
       "totalStaked": 156611, // Total valued lock in USD
       "points": 20
     },
     {
-      "name": "PancakeSWAP BUSD-BNB", // Pool name if any, eg. Sushi Party, Uniswap Sushi-ETH LP
+      "name": "PieSWAP BUSD-OKT", // Pool name if any, eg. Sushi Party, Uniswap Sushi-ETH LP
       "pair": "BUSD-WBNB",
       "pairLink": "https://pancakeswap.finance/farms/BUSD-BNB%20FLIP",
       "logo": "https://pancakeswap.finance/lp-images/category-busd.png",
